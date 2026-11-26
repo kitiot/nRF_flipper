@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+._*
+
+# Build debug artifacts (keep compiled .bin files)
+*.elf
+*.map
+
+# Flash Download Tool temp & runtime logs
+Flasher/flash_download_tool_3.9.7/dl_temp/
+Flasher/flash_download_tool_3.9.7/logs/
